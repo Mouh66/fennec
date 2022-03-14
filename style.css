@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+}
+.logo-img img{
+  width:150px;
+  height:150px
+}
+.logo{
+  width:80%;
+  text-align: center;
+ margin:80px auto;
+ 
+}
+.logo{
+  margin: 15px auto;
+}
+.logo h1{
+  font-size:2rem;
+  color:white;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.logo h1:hover{
+  transform:scale(1.1);
+}
+i{
+  margin-left:5px ;
+  
+}
+.newStyle{
+  color: green;
+}
+.wrongStyle{
+  color: red;
+}
+span{
+  text-transform: capitalize;
+  color:crimson;
+  font-size:2.5rem;
+}
+a{
+  text-decoration: none;
+}
+.btn{
+  color: black;
+  background-color:gold;
+  padding: 5px 8px ;
+  font-weight: bolder;
+  text-transform: uppercase;
+  width: 80%;
+  
+}
+.cadre{
+  margin:10px auto;
+  width: 80%;
+  background-color:rgba(255, 255,255, 0.1);
+  text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+p{
+  margin: auto;
+  margin-bottom:10px;
+  color: whitesmoke;
+  text-transform:capitalize;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+/*.btn:hover{
+  color: white;
+  background-color:crimson;
+}*/
+#inpt{
+  background-color: transparent;
+  margin-bottom:10px;
+  color: white;
+  border-radius:3px;
+  
+}
+.icon{
+  margin-top:20px;
+}
+::placeholder{
+  color: white;
+  opacity:0.5;
+  padding: 3px;
+}
+.icon p{
+  letter-spacing:5px;
+  font-size:10px;
+}
+
+@media(max-width:1000px){
+  h1{
+    font-size: 2rem;
+    margin: 0 20px;
+  }
+}
